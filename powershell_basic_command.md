@@ -88,6 +88,10 @@ Powershell 명령어를 검색하는 도움말
 | Get-Content                    | 파일의 정보를 가져온다.<br><br>-Path는 경로<br><br>`binary file로 가져오기`<br>-AsByteStream <br>-Raw                                |
 
 ```powershell
+
+# 파일개수 
+( Get-ChildItem -filter "*.zip").count 
+
 # 경로명 가져오기 
 (get-Command notepad.exe).path
 
