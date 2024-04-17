@@ -277,8 +277,8 @@ Powershell은 개발자 친화적인 쉘 스크립트 언어이다. 그리고 C#
 	- [객체(C#)](powershell_객체.md)
 - 고급
 	- [동적 라이브러리(dll, so) 연동](powershell_동적라이브러리_호출.md)
-	- [IPC](프로그래밍/tutorial/powershell/powershell_IPC.md) 
-	- [eval (명령어 문자열을 수행)](프로그래밍/tutorial/powershell/powershell_eval.md)
+	- [IPC](powershell_IPC.md) 
+	- [eval (명령어 문자열을 수행)](powershell_eval.md)
 - 기타 
 	- [package & module](powershell_package_module.md)
 	- [ps1 to exe : Powershell 5.1 대상](https://github.com/MScholtes/PS2EXE)
