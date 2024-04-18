@@ -87,6 +87,8 @@ Powershell 명령어를 검색하는 도움말
 | Set-Content                    | 파일에 정보를 입력 <br><br>-Path는 경로<br>-Value는 저장할 값                                                                      |
 | Get-Content                    | 파일의 정보를 가져온다.<br><br>-Path는 경로<br><br>`binary file로 가져오기`<br>-AsByteStream <br>-Raw                                |
 
+- 자주 사용하는 명령어 1
+
 ```powershell
 
 # 파일개수 
@@ -112,6 +114,29 @@ Set-Content -Path .\Test*.txt -Value 'Hello, World'
 
 # 특정 파일 내용가져오기 
 Get-Content -Path .\Test.txt
+
+# 압축해제하기(quick_ktor.zip을 .\ext 폴더에 풀기 )
+expand-archive .\quick_ktor.zip .\ext   
+
+# 현재 폴더를 backup.zip으로 압축
+Compress-Archive -Path * -DestinationPath "backup.zip"
+
+```
+
+- 자주 사용하는 명령어 2
+```powershell
+#현재 폴더의 zip 파일들을 하부폴더로 이동시키기 
+
+# 서브폴더를 생성할 폴더명 설정
+$backupFolder = "backup_zip"
+
+# 만약 서브폴더가 존재하지 않으면 생성
+if (-not (Test-Path $backupFolder)) {
+    New-Item -ItemType Directory -Path $backupFolder | Out-Null
+}
+
+# 현재 폴더의 zip 파일들을 서브폴더로 이동
+Get-ChildItem -Filter *.zip | Move-Item -Destination $backupFolder
 ```
 
 ## 3. Object 정보처리 
