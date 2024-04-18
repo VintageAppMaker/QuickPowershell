@@ -259,7 +259,7 @@ foreach ($file in $ps1Files) {
 	- [MS-Word 자동화](powershell_msword.md)
 	- [MS-Excel 자동화](powershell_excel.md)
 	- [자료관리(백업/복구) 및 기타 ](powershell_databackup.md)
-	- [WMI(Windows Management Instrumentation)](프로그래밍/tutorial/powershell/powershell_WMI_example.md)
+	- [WMI(Windows Management Instrumentation)](powershell_WMI_example.md)
 	- [Invoke Web Request](powershell_invoke_web_request.md)
 	- [반복실행(Schedule)](powershell_schedule.md)
 
