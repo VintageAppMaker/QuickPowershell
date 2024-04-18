@@ -256,8 +256,8 @@ foreach ($file in $ps1Files) {
 	- [기초 명령어](powershell_basic_command.md)
 - 활용예제
 	- [화면처리](powershell_screen_example.md)
-	- [MS-Word 자동화](powershell_msword.md)
-	- [MS-Excel 자동화](powershell_excel.md)
+	- [MS-Word 자동화](powershell_MSWORD.md)
+	- [MS-Excel 자동화](powershell_EXCEL.md)
 	- [자료관리(백업/복구) 및 기타 ](powershell_databackup.md)
 	- [WMI(Windows Management Instrumentation)](powershell_WMI_example.md)
 	- [Invoke Web Request](powershell_invoke_web_request.md)
