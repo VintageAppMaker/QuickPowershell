@@ -1,4 +1,4 @@
-# Powershell은 
+﻿# Powershell은 
 # C#을 사용할 수 있기에 Windows.Forms를 활용할 수 있다. 
 
 # 1. Form을 생성한다. Caption을 지정한다. 
