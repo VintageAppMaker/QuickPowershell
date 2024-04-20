@@ -1,0 +1,5 @@
+<GuiElements>
+    <Button Text="눌러보세요" X="100" Y="100" Width="80" Height="30" Handler="ButtonClickHandler"/>
+    <Label Text="안녕하세요!" X="50" Y="50" Width="150" Height="20" />
+</GuiElements>
+
