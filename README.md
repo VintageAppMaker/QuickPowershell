@@ -285,4 +285,11 @@ Powershell은 개발자 친화적인 쉘 스크립트 언어이다. 그리고 C#
 		- 참고: 소스내용이 exe에 포함되어 있음.
 		- 결론: editor로 소스내용 볼 수 있음.
 
+- 참고소스
+	- C# Form 활용
+		- [기본 Control](src/Form1.ps1)
+		- [Layout 예제](src/Form2.ps1)
+		- [event Handler](src/Form3.ps1)
+		- [progress bar](src/Form4.ps1)
+	- [github downloader](src/github_download.ps1)
 
