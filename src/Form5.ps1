@@ -1,7 +1,7 @@
 ﻿Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
-$xmlFilePath = "$pwd\mainwindow.xaml"
+$xmlFilePath = "$pwd\mainwindow.xml"
 $xml = [xml](Get-Content $xmlFilePath)
 
 $form = New-Object System.Windows.Forms.Form
