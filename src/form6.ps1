@@ -1,5 +1,6 @@
 Add-Type -AssemblyName PresentationFramework
 
+#load xaml
 $xamlPath = "$pwd\main.xaml"
 $xmlContent = Get-Content $xamlPath
 $reader = [System.Xml.XmlReader]::Create([System.IO.StringReader]::new($xmlContent))
