@@ -181,7 +181,7 @@ notepad
 $p = Get-Process -Name "notepad"
 Stop-Process -InputObject $p
 
-# 프로세스를 종료하기 
+# 주소 내의 모든링크 가져오기 
 (Invoke-WebRequest -Uri "http://vintageappmaker.com").Links.Href
 ```
 ## 5. 기타정보 
